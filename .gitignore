@@ -1,0 +1,13 @@
+*.pdf
+*.sql
+*.txt
+.vscode/*
+*.mp4
+*.xls
+*.zip
+
+
+/temp_folder_uploads/*.xlsx
+
+
+!dashboard/temp_folder_uploads/index.html

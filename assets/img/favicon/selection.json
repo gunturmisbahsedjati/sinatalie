@@ -1,0 +1,67 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M960 320h-192v-96c0-88.366-171.922-160-384-160s-384 71.634-384 160v640c0 88.366 171.922 160 384 160s384-71.634 384-160v-96h192c35.346 0 64-28.654 64-64v-320c0-35.346-28.654-64-64-64zM176.056 258.398c-36.994-12.19-59.408-25.246-71.41-34.398 12.004-9.152 34.416-22.208 71.41-34.398 57.942-19.090 131.79-29.602 207.944-29.602s150.004 10.512 207.944 29.602c36.994 12.188 59.408 25.246 71.41 34.398-12.002 9.152-34.416 22.208-71.41 34.398-57.94 19.090-131.79 29.602-207.944 29.602s-150.002-10.512-207.944-29.602zM896 640h-128v-192h128v192z"
+        ],
+        "tags": [
+          "mug",
+          "drink",
+          "glass",
+          "beverage"
+        ],
+        "defaultCode": 59810,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "mug, drink3",
+        "name": "mug",
+        "order": 2,
+        "id": 163,
+        "prevSize": 32,
+        "code": 59810
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 162
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 9459197,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
