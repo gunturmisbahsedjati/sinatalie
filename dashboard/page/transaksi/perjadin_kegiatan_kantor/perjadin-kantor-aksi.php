@@ -981,7 +981,7 @@ if (in_array(1, $arrayAkses)) {
                          where tb_pegawai.soft_delete = 0 and tb_pegawai.id_peg = '$id_peg'");
             if (mysqli_num_rows($sqlCekPeg) > 0) {
                 $pegawai = mysqli_fetch_array($sqlCekPeg);
-                $nama = $pegawai['nama_peg'];
+                $nama = mysqli_escape_string($myConnection, $pegawai['nama_peg']);
                 $nip = $pegawai['nip'];
                 $id_pangkat = $pegawai['id_pangkat'];
                 $jabatan = $pegawai['nama_jabatan'];
